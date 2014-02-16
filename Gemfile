@@ -25,6 +25,7 @@ group :development do
   gem 'binding_of_caller', platforms: [:mri_19, :rbx]
   gem 'hub', require: nil
   gem 'yell-rails'
+  gem 'therubyracer'
 end
 
 group :development, :test do
